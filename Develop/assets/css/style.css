@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Background color for page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Set header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +22,7 @@ body {
     font-size: 48px;
 }
 
+/* Style of "seo" in Horiseon name */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,6 +44,7 @@ body {
     margin-left: 25px;
 }
 
+/* Set styles for links and paragraphs */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +53,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Main image under Header */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +63,45 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Set styles for main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content .content1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Ensures content imgs fit properly */
+.content .content1 img {
+    max-height: 200px;
+}
+
+/* Keep content imgs entirely to the left or right of content text */
+.content .content1 img.left{
+    float: left;
+    margin-right: 25px;
+}
+
+.content .content1 img.right{
+    float: right;
+    margin-left: 25px;
+}
+
+/* Content titles style */
+.content .content1 h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set benefits sidebar styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +113,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Set benefit text color and bottom margin */
+.benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Benefit titles margin and alignment */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Benefit image style*/
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Set footer styles */
 .footer {
     padding: 30px;
     clear: both;
